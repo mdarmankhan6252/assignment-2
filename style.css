@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Mulish', sans-serif;
+
+}
+header,main{
+   width: 90%;
+   max-width: 1320px;
+   margin: auto;
+}
+h1{
+   font-size: 60px;
+   padding: 10px 0;
+   color: #fff;
+   font-weight: 800;
+}
+h2{
+   font-size: 40px;
+   color: #131318;
+   font-weight: 700;
+}
+h3{
+   font-size: 24px;
+   font-weight: 600;
+}
+p{
+   color: #838385;
+   line-height: 26px;
+}
+.btn{
+   background-color: #ff5400;
+   border: 2px solid #ff5400;
+   color: #fff;
+   font-weight: 600;
+   font-size: 18px;
+   padding:10px 24px ;
+   border-radius: 4px;
+   text-decoration: none;
+   transition: 0.5s;
+   display: inline-block;
+   margin: 20px 0;
+}
+.btn-2{
+   padding: 8px 20px;
+   width: 20%;
+}
+.fa-magnifying-glass{
+   margin-right: 8px;
+}
+.btn:hover{
+   background-color: #fff;
+   color: #ff5400;
+}
+.row{
+   display: flex;
+   justify-content: space-between;
+}
+
+/* ------------------header------------ */
+
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 25px auto;
+
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+.logo h2{
+   font-size: 30px;
+   margin-left: 12px;
+}
+.logo h2 span{
+   color: #ff5400;
+}
+nav ul li{
+   display: inline-block;
+   margin-left: 25px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: #838385;
+   font-size: 18px;
+   font-weight: 600;
+   transition: 0.3s;
+
+}
+nav ul li a.active{
+   color: #ff5400;
+}
+nav ul li a:hover{
+   color: #ff5400;
+}
+.banner{
+   width: 100%;
+   background-image: url(img/Group\ 13\ \(1\)\ \(1\).png);
+   background: linear-gradient(rgba(0,0,44,0.4),rgba(0,0,32,0.2)),url(img/banner.png);
+   margin-top: 80px;
+   border-radius: 10px;
+   text-align: center;
+   background-size: cover;
+   background-position: center;
+   padding: 100px 0;
+
+}
+.banner p{
+   color: #fff;
+   width: 600px;
+   margin: 20px auto;
+   
+
+}
+.travel-input{
+   width: 900px;
+   margin:50px auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background: rgba(255, 255, 255, 0.30);
+}
+.travel-input input{
+   padding: 10px ;
+   width: 20%;
+   border: 1px solid #ddd;
+   outline: none;
+   font-size: 16px;
+}
+.travel-input select{
+   padding: 10px;
+   width: 20%;
+   color: #838385;
+}
+.travel-input option{
+   background-color: #ff5400;
+   color: #fff;
+   padding: 8px 0;
+
+}
+
+/* ---------------popular-tours----------- */
+
+.popular-tours{
+   margin-top: 120px;
+}
+.popular-tours-col{
+   flex-basis: 50%;
+
+}
+.popular-tours-img-col{
+   flex-basis: 45%;
+}
+.popular-tours-img-col img{
+   width: 100%;
+}
+.popular-tours-col h2{
+   margin-bottom: 15px;
+}
+.popular-tours-col ul{
+   margin: 30px 0 30px 20px;
+}
+.popular-tours-col ul li{
+   margin: 15px 0;
+   line-height: 26px;
+   color: rgba(19, 19, 24, 0.70);
+}
+.popular-tours-col a{
+   margin-top: 50px;
+}
+
+/* ---------------destination-------------- */
+
+.destination{
+   text-align: center;
+   margin-top: 100px;
+}
+.destination-row-1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+.destination-col{
+   flex-basis: 48%;
+}
+.destination-col img{
+   width: 100%;
+}
+.destination-col,.destination-col-2,.destination-col-3,.destination-col-30{
+   position: relative;
+}
+.des-title{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 28px;
+   color: #fff;
+}
+.destination-row-2{
+   display: grid;
+   grid-template-columns:1fr 2.5fr 1fr;
+   gap: 20px;
+   margin-top: 50px;
+}
+.destination-col-2{
+   width: 100%;
+}
+.destination-row-3{
+   display: flex;
+   margin-top: 50px;
+   align-items: center;
+   justify-content: space-between;
+}
+.destination-col-3{
+   flex-basis:40% ;
+}
+.destination-col-3 img{
+   width: 100%;
+}
+.destination-col-30{
+   flex-basis: 55%;
+}
+.destination-col-30 img{
+   width: 100%;
+}
+
+/* --------------choose------------ */
+
+.choose{
+   margin-top: 100px;
+   text-align: center;
+
+}
+.choose img{
+   width: 80px;
+}
+.choose-col{
+   flex-basis: 47%;
+   text-align: left;
+   padding: 20px;
+   background-color: #FFFBF7;
+   border: 1px solid #e9e7e7;
+   margin-top: 70px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.10);
+   transition: 0.5s;
+   text-align: justify;
+}
+.choose-col:hover{
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+}
+.choose-col h3{
+   padding: 8px 0;
+}
+.choose-col-2{
+   background-color: #F4FDFF;
+}
+.choose-row{
+   justify-content: center;
+}
+/* -----------deals----------- */
+
+.deals{
+   margin-top: 100px;
+}
+.deals > h2,.deals > p{
+   text-align: center;
+}
+.deals-1{
+   background-image: url(img/Group\ 39.png);
+   background-position: center;
+   background-size: cover;
+   padding:100px ;
+   margin-top: 70px;
+   border-radius: 10px;
+   position: relative;
+   height: 50vh;
+
+}
+.deals-content{
+   background: rgba(255, 255, 255, 0.80);
+   width: 500px;
+   padding: 20px;
+   border-radius: 10px;
+   position: absolute;
+   right: 100px;
+
+}
+.text-icon{
+   padding-bottom: 10px;
+}
+.text-icon span{
+   margin-right: 50px;
+   color: #838385;
+}
+.text-icon .fa-solid,.fa-regular {
+   margin-right: 4px;
+   color: #ff5400;
+}
+.deals-content h3{
+   font-size: 28px;
+   padding: 10px 0;
+
+}
+.deals-content p{
+   color: #4b4949;
+   margin-bottom: 10px;
+}
+.deals-content h5{
+   font-size: 20px;
+   color: #ff5400;
+}
+.deals-content-2{
+   left: 100px;
+}
+.deals-2{
+   background-image: url(img/Group\ 40.png);
+}
+.deals-btn{
+   display: flex;
+   justify-content: center;
+   margin: 50px auto;
+}
+
+/* ------------get-lost------------ */
+
+.get-lost{
+   margin-top: 50px;
+}
+.get-lost-col ul li{
+   font-weight: bold;
+   color: #181818;
+}
+.get-lost-col > .get-lost-btn{
+   margin-top: 0;
+}
+
+/* ------------newsletter-------------- */
+.newsletter{
+   margin-top: 100px;
+}
+.newsletter-col{
+   flex-basis: 35%;
+   border: 1px solid #ff5400;
+   border-radius: 10px;
+   padding: 20px;
+}
+.newsletter-col p{
+   margin-bottom: 20px;
+}
+.newsletter-col h3{
+   font-weight: 700;
+   margin-top: 50px;
+}
+.newsletter-col input{
+   width: 100%;
+   padding: 10px ;
+   margin-bottom: 30px;
+   outline: none;
+   border: none;
+   border: 1px solid #ddd;
+   background-color: #F3F3F3;
+   font-size: 18px;
+   border-radius: 8px;
+}
+.newsletter-col input:last-child{
+   cursor: pointer;
+   margin-top: 0;
+   border: 2px solid #ff5400;
+   background-color: #ff5400;
+   margin-bottom: 0;
+}
+.newsletter-col input:last-child:hover{
+   background-color: transparent;
+}
+.newsletter-img-col{
+   flex-basis: 60%;
+}
+.newsletter-img-col img{
+   width: 100%;
+}
+
+/* ----------client---------- */
+
+.client{
+   margin-top: 100px;
+}
+.client > h2{
+   text-align: center;
+}
+.client > p{
+   text-align: center;
+   width: 60%;
+   margin: auto;
+   margin-top: 8px;
+}
+.client-col{
+   flex-basis: 31%;
+   border-radius: 10px;
+   box-shadow:  0 0 20px 0 rgba(0, 0, 0, 0.15);
+   padding: 20px;
+   margin-top: 80px;
+   transition: 0.5s;
+}
+.client-col img{
+   width: 80px;
+   border-radius: 50%;
+   background-color: #a9a9fa;
+}
+.client-row{
+   align-items: center;
+}
+.client-col h3{
+   padding: 8px 0;
+}
+.client-col p{
+   text-align: justify;
+}
+.client-col:hover{
+   box-shadow:  0 0 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+/* -----------------footer------------- */
+footer{
+   background-color: #F3F3F3;
+   text-align: center;
+   padding: 80px 0;
+   margin-top: 100px;
+}
+.container{
+   width: 60%;
+   max-width: 600px;
+   margin: auto;
+   text-align: center;
+}
+.footer-logo{
+   justify-content: center;
+   margin-bottom: 15px;
+}
+.container p{
+   margin-bottom: 15px;
+}
+.icons .fa-brands{
+   font-size: 26px;
+   margin: 30px 20px;
+   cursor: pointer;
+   transition: 0.2s;
+
+}
+.icons .fa-brands:hover{
+   color: #ff5400;
+}
+.container hr{
+   background-color: #DEDEDE;
+   padding: 1px;
+   border: none;
+
+}
+.container small{
+   display: inline-block;
+   font-size: 14px;
+   color: #4b4949;
+   margin-top: 50px;
+}
+
+/* -----------------responsive----------- */
+
+@media screen and (max-width:576px) {
+   .row{
+      flex-direction: column;
+   }
+   
+}
