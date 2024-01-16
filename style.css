@@ -469,6 +469,9 @@ footer{
    color: #4b4949;
    margin-top: 50px;
 }
+
+/* -----------last time added css code------------- */
+
 .bg-color {
    background-color: #F4FDFF;
 }
@@ -492,4 +495,6 @@ footer{
    color: #fff;
 }
 
-
+nav ul li:last-child{
+   display: none;
+}
