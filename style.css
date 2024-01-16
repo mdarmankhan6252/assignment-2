@@ -472,6 +472,24 @@ footer{
 .bg-color {
    background-color: #F4FDFF;
 }
+.newsletter-img-col{
+   position: relative;
+}
+.news-content{
+   background-color: #ff5400;
+   color: #fff;
+   width: 300px;
+   text-align: center;
+   padding: 30px;
+   border-radius: 4px;
+   position: absolute;
+   right:0;
+   bottom: 100px;
+   transform: rotate(-45deg);
 
+}
+.news-content p{
+   color: #fff;
+}
 
 

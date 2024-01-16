@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
-   body{
+   /* body{
       overflow-x: hidden;
-   }
+   } */
    .row, .destination-row-1,.destination-row-3{
       flex-direction: column;
    }
@@ -105,5 +105,30 @@
    }
    .newsletter-col{
       margin-bottom: 60px;
+   }
+   .news-content{
+      width: 190px;
+      bottom: 55px;
+   }
+   .news-content,h3{
+      font-size: 20px;
+      padding: 10px;
+
+
+   }
+   .news-content p{
+      font-size: 12px;
+   }
+   .client p{
+      width: 90%;
+      margin: auto;
+   }
+   .client-col p{
+      margin: auto 0;
+
+   }
+   .container{
+      width: 90%;
+
    }
 }
