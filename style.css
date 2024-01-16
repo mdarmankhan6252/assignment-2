@@ -469,12 +469,9 @@ footer{
    color: #4b4949;
    margin-top: 50px;
 }
-
-/* -----------------responsive----------- */
-
-@media screen and (max-width:576px) {
-   .row{
-      flex-direction: column;
-   }
-   
+.bg-color {
+   background-color: #F4FDFF;
 }
+
+
+

@@ -1,0 +1,109 @@
+@media screen and (max-width:576px) {
+   body{
+      overflow-x: hidden;
+   }
+   .row, .destination-row-1,.destination-row-3{
+      flex-direction: column;
+   }
+   .logo h2{
+      font-size: 22px;
+   }
+   .logo img{
+      width: 40px;
+   }
+   nav ul li{
+      display: none;
+   }
+   nav ul li:last-child{
+      display: block;
+      font-size: 22px;
+   }
+   .banner h1{
+      font-size:28px ;
+   }
+   .banner p{
+      width: 80%;
+      margin: auto;
+   }
+   .travel-input{
+      flex-direction: column;
+      width: 90%;
+      margin: auto;
+      padding: 50px 0;
+      margin-top: 50px;
+   }
+   .travel-input input{
+      width: 90%;
+      margin: auto;
+   }
+   .travel-input select,.btn{
+      width: 90%;
+      margin: auto;
+      margin-top: 30px;
+   }
+   .input-btn{
+      width: 90%;
+
+   }
+   h2{
+      font-size: 24px;
+   }
+   p{
+      font-size: 15px;
+   }
+   .read-more-btn{
+      width:200px ;
+      margin-bottom: 50px;
+      text-align: center;
+   }
+   .destination-row-2{
+      grid-template-columns: repeat(1, 1fr);
+
+   }
+   .destination-row-2 img{
+      width: 100%;
+   }
+   .destination-col,.destination-col-30{
+      margin-top: 50px;
+   }
+   .destination-col-30{
+
+   }
+   .destination-col-2{
+      width: 100%;
+   }
+   .destination-col-3{
+      height: 200px;
+   }
+   .deals-content{
+      position: absolute;
+      left: 50px;
+      top: 50px;
+      width: 78%;
+      margin: auto;
+   }
+   .deals-content h3{
+      font-size: 22px;
+   }
+   .deals-content h5{
+      font-size: 18px;
+   }
+   .text-icon span{
+      margin: 10px;
+   }
+   .text-icon span:last-child{
+      display: block;
+   }
+   .deals-btn-1{
+      margin: 20px 0;
+      width: 170px;
+      text-align: center;
+      
+   }
+   .deals-btn{
+      display: none;
+   }
+   .newsletter-col{
+      margin-bottom: 60px;
+   }
+}
